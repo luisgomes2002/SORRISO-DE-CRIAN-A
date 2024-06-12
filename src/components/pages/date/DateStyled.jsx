@@ -11,7 +11,7 @@ export const DateArea = styled.div`
     margin-top: 2%;
     font-size: 40px;
     background-color: #4080ed;
-    width: 87%;
+    width: 59%;
     color: white;
     padding: 1% 0;
     border-radius: 25px 25px 0 0;
