@@ -133,6 +133,7 @@ export const CultureInformation = styled.div`
 
   @media (max-width: 768px) {
     padding: 2% 0;
+    margin-bottom: 10%;
   }
 `;
 
@@ -166,8 +167,10 @@ export const Informations = styled.section`
   }
 
   @media (max-width: 768px) {
+    display: flex;
     width: 90%;
     grid-template-columns: 1fr;
+
     img {
       height: 100px;
       width: 100px;
@@ -179,7 +182,8 @@ export const Informations = styled.section`
     }
 
     div {
-      text-align: center;
+      text-align: left;
+      padding: 1%;
     }
   }
 `;
