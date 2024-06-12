@@ -12,11 +12,16 @@ export const FooterArea = styled.section`
     border-radius: 25px;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     height: 600px;
+
+    ifram {
+      width: 600px;
+      height: 600px;
+    }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1230px) {
     grid-template-columns: 1fr;
     height: auto;
   }
@@ -25,6 +30,7 @@ export const FooterArea = styled.section`
     iframe {
       width: 300px;
       height: 300px;
+      margin: 5% 0;
     }
   }
 `;
